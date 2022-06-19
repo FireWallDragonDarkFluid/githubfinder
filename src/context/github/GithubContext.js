@@ -22,7 +22,7 @@ export const GithubProvider = ({children}) => {
         })
         const response = await fetch(`https://api.github.com/search/users?${params}`, {
             headers:{
-                Authorization: `token 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`
+                Authorization: `token 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`
             }
         })
 
